@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{691382EC-FBCE-694D-CD8C-8ADAF00FD6A2}</ProjectGuid>
+    <ProjectGuid>{AE67406A-06C4-C1E2-55F2-37104E44B85C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,7 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Jukoy\Charactercustomization.cs" />
+    <Compile Include="Assets\Scripts\Parts\Base\PartsList.cs" />
+    <Compile Include="Assets\Scripts\Parts\Base\PartsData.cs" />
+    <Compile Include="Assets\Scripts\IdleAnimationRandomizer.cs" />
+    <Compile Include="Assets\Scripts\Parts\Base\CharacterBody.cs" />
+    <Compile Include="Assets\Scripts\PartChanger.cs" />
+    <Compile Include="Assets\Scripts\PartsFixer.cs" />
+    <Compile Include="Assets\Scripts\PartChangerListGenerator.cs" />
+    <Compile Include="Assets\Scripts\PartsMapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

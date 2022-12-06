@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 0baf82a0266aabf4082ac8e13a1291b6
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: a98d1c2e25cb5f144956470a33e2d6ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface1
+    second: {fileID: 2100000, guid: 81f3301f124d1d2409ce0a40a11406f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface17
+    second: {fileID: 2100000, guid: 4534b6f038ddacf4fb16e6cf92dd5112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: e20699f2980107245a517485568fc181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface48
+    second: {fileID: 2100000, guid: b0139f93ad306d14a80e2d003f77250d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_roots_mat
+    second: {fileID: 2100000, guid: f5b180e46bffc7743981a33b988026be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bridge_archway_mat
+    second: {fileID: 2100000, guid: 63cf5655216eb34499066a58124ff0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bridge_column_roof_mat
+    second: {fileID: 2100000, guid: fe052bdc7ffb47a4d83c7f3ed9b504b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bridge_floor_mat
+    second: {fileID: 2100000, guid: 3fd39ad1403605643aa4df2ad1c66bd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bridge_ornament_mat
+    second: {fileID: 2100000, guid: 6fb2353a21ad873499dca2e5e8faf3bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bridge_pillars_mat
+    second: {fileID: 2100000, guid: 6ff95902605ff214e8dcc1e86e5178c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush_leaf_01_mat
+    second: {fileID: 2100000, guid: 9d749f8b2a9578f40a491d7cf66a8924, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush_leaf_02_mat
+    second: {fileID: 2100000, guid: 104c635e2eb38604cb265546a03ac123, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush_mesh_mat
+    second: {fileID: 2100000, guid: b182c1f20ea3a5e47a09b49ee8a70ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff01_mat
+    second: {fileID: 2100000, guid: b92067462a9846e40af4f833f2345cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff02_mat
+    second: {fileID: 2100000, guid: 16f6a35d956f4b1469deb5063b0a1fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff03_mat
+    second: {fileID: 2100000, guid: 9493cab0c80b3f843b277480c04a94e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff04_mat
+    second: {fileID: 2100000, guid: 2b14a5b91632ae84ebd7859c2a97adb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff05_mat
+    second: {fileID: 2100000, guid: f7a797efe9c6ac743a6641302f8c2d4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff06_mat
+    second: {fileID: 2100000, guid: dd5da01adb6e791478a71a7eb367d81f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cliff07_mat
+    second: {fileID: 2100000, guid: 302ca6eb68a56a14dae1d6d6fb79d7b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire_brazier_mat
+    second: {fileID: 2100000, guid: f60d66d4da10a994c8522798258dfc2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate_archway_mat
+    second: {fileID: 2100000, guid: 0af58b7c7dc13f44d8996f151f534380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate_metal_mat
+    second: {fileID: 2100000, guid: 7a8a688e972a1884799b3bebf1db90ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate_post_mat
+    second: {fileID: 2100000, guid: dba2a029366655b47a0c1cf81aac3dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate_wall_mat
+    second: {fileID: 2100000, guid: d2fa9b15d1d7174409d2220ac053a348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_mat
+    second: {fileID: 2100000, guid: eebf2a74c9faeb34bab440033e907505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: haystack_mat
+    second: {fileID: 2100000, guid: ac5c854df1d98804abaff1a0c3bb352e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inhibitor_blue_mat
+    second: {fileID: 2100000, guid: d378380b08b9ae84c875b59d499f622b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_bridge_floor_mat
+    second: {fileID: 2100000, guid: 032bfa63c23d9fd419838c49e0421261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_bridge_frame_mat
+    second: {fileID: 2100000, guid: 7278cff7f253c084b8e2df0a8fd80947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mod_rock_v01_mat
+    second: {fileID: 2100000, guid: 6c2dca31829e110478eec2fe7f2c28b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mod_rock_v02_mat
+    second: {fileID: 2100000, guid: b103c7db3b75dfa49816af198333eb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mod_rock_v03_mat
+    second: {fileID: 2100000, guid: d604762c8e537064fb2f9f60371ee44c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mushrooms_mat
+    second: {fileID: 2100000, guid: 16e5ce435e046854f9d09d16da8e712b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_statue_mat
+    second: {fileID: 2100000, guid: 9c04656b60f6c394aa441ccc6741ae0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine_trees_mat
+    second: {fileID: 2100000, guid: 56d4b2bf68b84954991a0abad577d562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_platform_mat
+    second: {fileID: 2100000, guid: 8cb82d697e6c55647a5f78e3befafd2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_post_mat
+    second: {fileID: 2100000, guid: 1b36d055be0a5c946ba41876bc1f44e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_post_mat1
+    second: {fileID: 2100000, guid: 97e9a194930e0ae4a9ef44f6b9771091, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_post_mat2
+    second: {fileID: 2100000, guid: 31a6eb4c7364c314c845528ce0bcf3f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_post_mat3
+    second: {fileID: 2100000, guid: 2494903e3198c334186ae5bab3a540b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_wall_1_mat
+    second: {fileID: 2100000, guid: d68d89a7997035d4c8b411bf107d7bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruin_wall_2_mat
+    second: {fileID: 2100000, guid: e595798287fe8ef4bb12088185926e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scaffolding_frame_mat
+    second: {fileID: 2100000, guid: 2df74989847736546a5e051be6c41b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scaffolding_planks_mat
+    second: {fileID: 2100000, guid: 6ae3187afee91e7479108e516ce54613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_anvil_mat
+    second: {fileID: 2100000, guid: 25345552396cee0489c648454ded1479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_front_mat
+    second: {fileID: 2100000, guid: 8bb34c7b290b31d4ca4469df13a8c7ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_roof_mat
+    second: {fileID: 2100000, guid: 8f4b24cfddc92f5449d919d11660b54d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_shade_mat
+    second: {fileID: 2100000, guid: d71466e3a8864574f85be63d3369870c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shop_wall_mat
+    second: {fileID: 2100000, guid: c1380dc0cf1e32b4cb51e920741afeb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spear_rack_mat
+    second: {fileID: 2100000, guid: 6ab4023df91e83440aa30e9d3792fac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: star_leaf_mat
+    second: {fileID: 2100000, guid: 1a3e35ef9b53da94aa1cecdcba567913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader9
+    second: {fileID: 2100000, guid: b0e15a2fef841634bae0ba8a12280e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_01_blue_mat
+    second: {fileID: 2100000, guid: 33c8e91c766172e4d98867523de14d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_02_blue_mat
+    second: {fileID: 2100000, guid: 1ad4a2b32a5c4df4590908ad6d87d506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_02_red_mat
+    second: {fileID: 2100000, guid: a9e0260d194a6574b93eb83fd61bc837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: training_dummy_mat
+    second: {fileID: 2100000, guid: 4a4a9aba4e4ebdf4fbec685b02c295d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_falls_mat
+    second: {fileID: 2100000, guid: 4c5def6ecd310a148a0cf37a7a7f9950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_ground_mat
+    second: {fileID: 2100000, guid: 8ae52fe7bdb2abc4691f1c7d1b8db0f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_fence_01_mat
+    second: {fileID: 2100000, guid: 0d1c6a2df3eb48647b59ddae6ef0858c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_fence_02_mat
+    second: {fileID: 2100000, guid: 956de80f7af4d204188599d91451424d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_fence_03_mat
+    second: {fileID: 2100000, guid: 4f4dac9590690c742be6e550266cdf80, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Daanan_Albedo
+    second: {fileID: 2800000, guid: 8066397de0a84644b91ba9bba0d31498, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gate_Albedo
+    second: {fileID: 2800000, guid: 5b242852b44d47a43a8fff5607912b6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material.004_Albedo
+    second: {fileID: 2800000, guid: b51a96bac3f2c304fb4aad7fd4426189, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pillar_Albedo
+    second: {fileID: 2800000, guid: 73416b027d18dbb499847426e5d36ace, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poste_Albedo
+    second: {fileID: 2800000, guid: 3b8ebb85e6e95434cba58fd22dc32dba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roof_Albedo
+    second: {fileID: 2800000, guid: ce2b5de74263c284b86d17cc224e00f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower 1_Albedo
+    second: {fileID: 2800000, guid: 6905f0a3d337f5042b3fdaf81c45936c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower 1_Emission
+    second: {fileID: 2800000, guid: 36b9cc47ad81868479e36a5ea18cb700, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower 2_Albedo
+    second: {fileID: 2800000, guid: 3aa50d0b0abf85644841f73dfb03b79c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower 2_Emission
+    second: {fileID: 2800000, guid: 91aaa5ef0a097284ead66bd130935006, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wall 2_Albedo
+    second: {fileID: 2800000, guid: 9cfa7531d59d370458b0e03209c9062b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ark_Albedo
+    second: {fileID: 2800000, guid: 049ce89f169fee84581db42637ba1344, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: big_roots_mat_BaseColor
+    second: {fileID: 2800000, guid: 7af124937d99bce4eb88c041c4cb1110, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boulder_v01_mat_AlbedoTransparency
+    second: {fileID: 2800000, guid: f2a181b2f2e8aaa4b8cb7464110a9283, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bridge_floor_mat_BaseColor
+    second: {fileID: 2800000, guid: c871e6c2b17e6eb4c9b15ce9812ad0ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bridge_ornament_mat_BaseColor
+    second: {fileID: 2800000, guid: d373eb43b9982374fbe530eefb1e9701, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bush_leaf_color
+    second: {fileID: 2800000, guid: 3fa9eb2f79924654c8b08eca4cbd1852, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bush_leaf_opacity
+    second: {fileID: 2800000, guid: 118695e8f75744947973c9f8154c8877, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bushes_mesh_color
+    second: {fileID: 2800000, guid: f0e99abffaa54724c81e273452f0aa1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 01_AlbedoTransparency
+    second: {fileID: 2800000, guid: fac4c960a27ff7e499ee48bc8daf77c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 02_AlbedoTransparency
+    second: {fileID: 2800000, guid: c3bd722c7fa0e884daf3048154d3a8ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 03_AlbedoTransparency
+    second: {fileID: 2800000, guid: 988eca41598b436478bb9c10a219ca4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 04_AlbedoTransparency
+    second: {fileID: 2800000, guid: 509af9c3e8f911f4dbd324fe458e8005, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 05_AlbedoTransparency
+    second: {fileID: 2800000, guid: f24f86a43ff255e4181df6e94e5367a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 06_AlbedoTransparency
+    second: {fileID: 2800000, guid: ca662424f6548e64b8b91e119ce74c52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cliff_cliff 07_AlbedoTransparency
+    second: {fileID: 2800000, guid: c2118e1b1e390894fa7e9aade6230cb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crystal_Albedo
+    second: {fileID: 2800000, guid: fba5f3ef88edce5409b780a43c0cdef5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crystal_Emission
+    second: {fileID: 2800000, guid: de24a72f24a91cc47b6d4810b9cf9774, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fire_brazier_mat_BaseColor
+    second: {fileID: 2800000, guid: 7a3dfc33a2c270942b9021ceabee2c3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: grass_color
+    second: {fileID: 2800000, guid: 67159f14520e2664b8e88e0f278eeff7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: haystack_01_mat_BaseColor
+    second: {fileID: 2800000, guid: 761f8618b0470974892cd9bb78cf2de9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lamp poste_Post_BaseColor
+    second: {fileID: 2800000, guid: b128f1e6da8a7ac489856bc4e0f9ec1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lamp poste_lantern_BaseColor
+    second: {fileID: 2800000, guid: 8a911f4bc384bad49a4a720e1b1ae87f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lower_scaffolding_frame mat_BaseColor
+    second: {fileID: 2800000, guid: b53d55ef03adfcc48a899cbaf6252143, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lower_scaffolding_planks mat_BaseColor
+    second: {fileID: 2800000, guid: ed6dd768bd69c3c478629cc5de066c44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mid_bridge_floor_mat_BaseColor
+    second: {fileID: 2800000, guid: 68e338dcaef213a4c8fecc62da8b270f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mid_bridge_frame_mat_BaseColor
+    second: {fileID: 2800000, guid: 05505310700cf614995d05c328a2d9cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modularRocks_v01_mat_AlbedoTransparency
+    second: {fileID: 2800000, guid: 94f174253327248469d46b485f061817, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modularRocks_v02_Mat_AlbedoTransparency
+    second: {fileID: 2800000, guid: b942b37f687c2c04092f3d1607bdbf0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: modularRocks_v03_mat_AlbedoTransparency
+    second: {fileID: 2800000, guid: fa14fd07aa79c5d46b411d52e654cd77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mushrooms_mat_BaseColor
+    second: {fileID: 2800000, guid: 754bec20074a4b54fb8c52b182338236, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pet_statue_mat_BaseColor
+    second: {fileID: 2800000, guid: b0cc3a6f4bb725047a7e694213270cf5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pine_tree_mat_AlbedoTransparency
+    second: {fileID: 2800000, guid: b3b0eac06970ea44b825cff874710b06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: post and bricks_Albedo
+    second: {fileID: 2800000, guid: 870f4fcd8ccacc843a307e235e2d2c48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shop_shop anvil mat_BaseColor
+    second: {fileID: 2800000, guid: 9da506239ea0be248bb91973be346151, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shop_shop front mat_BaseColor
+    second: {fileID: 2800000, guid: c4bbe1fab28f9ce48b26cfb8b0d7431d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shop_shop roof mat_BaseColor
+    second: {fileID: 2800000, guid: 13fb4e036d607b6498a07ba10e5ce204, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shop_shop shade mat_BaseColor
+    second: {fileID: 2800000, guid: 804321e1fe827ff45acd75d6c02cfdf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shop_shop wall mat_BaseColor
+    second: {fileID: 2800000, guid: a017bf9f5d8827a4bb701de48ebb919a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: spear_rack_mat_BaseColor
+    second: {fileID: 2800000, guid: a712d4c1623ef3d459fe6ee80b2e2bb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: training_dummy_mat_BaseColor
+    second: {fileID: 2800000, guid: 12e37855c5421f541878b5eeee8d6f92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wall_Albedo
+    second: {fileID: 2800000, guid: 703f360d3939fd041bbc957afbda4aa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walls_Albedo
+    second: {fileID: 2800000, guid: 4d303c056411b214185e23b1dcb03296, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: water_water falls mat_BaseColor
+    second: {fileID: 2800000, guid: 4037031f70aaff64e878ff2c31cf2c38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: water_water mat_BaseColor
+    second: {fileID: 2800000, guid: 0ae8169c3a335ce4a8cda0fdcdfa5bd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_fenceA_mat_BaseColor
+    second: {fileID: 2800000, guid: 56ea7c54f96782745bc38bd81b4a466b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_fenceB-C_mat_BaseColor
+    second: {fileID: 2800000, guid: 42b64579de52e154ebf3c4a6289aa372, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden_fenceD_mat_BaseColor
+    second: {fileID: 2800000, guid: 62e3c7792b7e9db4a878de808f0e4a9c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

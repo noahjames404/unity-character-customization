@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cb4f462e9645745833216461e961a3, type: 3}
+  m_Name: FemaleBody1
+  m_EditorClassIdentifier: 
+  Armor: {fileID: 11400000, guid: 7afa5fc7bfd00924fa3a372820ae74f5, type: 2}
+  Body: {fileID: 11400000, guid: f2e91dc89b4d90146bc60ee7936f2434, type: 2}
+  Boot: {fileID: 11400000, guid: 3c81437bdb1d8c548b8667395be77ea0, type: 2}
+  Eyes: {fileID: 11400000, guid: 2dcb8db6f3b5f6447850421a1b571834, type: 2}
+  Gloves: {fileID: 11400000, guid: b0fff3988fcdc8248a046fbabfc68ee7, type: 2}
+  Hair: {fileID: 11400000, guid: b44ee7268563f204f8614adeafd26b1a, type: 2}
+  Top: {fileID: 11400000, guid: a6f03b2f577968140a8e01e706dfa5b8, type: 2}
+  Bottom: {fileID: 11400000, guid: 463b6c510d027e2409c38d0c8d92b8a5, type: 2}
+  Accessory: {fileID: 11400000, guid: c9ca6cbe18221704b950788f6482376d, type: 2}

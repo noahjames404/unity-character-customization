@@ -1,0 +1,338 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/kyuki/OneDrive/Documents/Arcus/CC/unity-character-customization
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+52446
+Successfully changed project path to: C:/Users/kyuki/OneDrive/Documents/Arcus/CC/unity-character-customization
+C:/Users/kyuki/OneDrive/Documents/Arcus/CC/unity-character-customization
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kyuki/OneDrive/Documents/Arcus/CC/unity-character-customization/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009594 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006265 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kyuki\OneDrive\Documents\Arcus\CC\unity-character-customization\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kyuki\OneDrive\Documents\Arcus\CC\unity-character-customization\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3862.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.518300 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.903000 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144491.187015 seconds.
+  path: Assets/Deathgorge/Material/aiStandardSurface2.mat
+  artifactKey: Guid(e20699f2980107245a517485568fc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/aiStandardSurface2.mat using Guid(e20699f2980107245a517485568fc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a946ebaabb42808c3d0aad6f6fcfdb7a') in 0.146194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Deathgorge/Material/ruin_post_mat.mat
+  artifactKey: Guid(1b36d055be0a5c946ba41876bc1f44e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/ruin_post_mat.mat using Guid(1b36d055be0a5c946ba41876bc1f44e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23817913f9a9195beac89b6696e589d') in 0.025883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Deathgorge/Material/tower_02_blue_mat.mat
+  artifactKey: Guid(1ad4a2b32a5c4df4590908ad6d87d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/tower_02_blue_mat.mat using Guid(1ad4a2b32a5c4df4590908ad6d87d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9464584dc5640499309671fc19a124df') in 0.028958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Deathgorge/Material/wooden_fence_03_mat.mat
+  artifactKey: Guid(4f4dac9590690c742be6e550266cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/wooden_fence_03_mat.mat using Guid(4f4dac9590690c742be6e550266cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fcce4ab282ab9da8f42c33bac1d5ca') in 0.020067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Deathgorge/Material/gate_metal_mat.mat
+  artifactKey: Guid(7a8a688e972a1884799b3bebf1db90ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/gate_metal_mat.mat using Guid(7a8a688e972a1884799b3bebf1db90ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e73ebec4d891752664f5ce5a32da2ec') in 0.024615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Deathgorge/Material/spear_rack_mat.mat
+  artifactKey: Guid(6ab4023df91e83440aa30e9d3792fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/spear_rack_mat.mat using Guid(6ab4023df91e83440aa30e9d3792fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8797246dfddce2a0ca56400c1162da6f') in 0.018208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Deathgorge/Material/gate_post_mat.mat
+  artifactKey: Guid(dba2a029366655b47a0c1cf81aac3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/gate_post_mat.mat using Guid(dba2a029366655b47a0c1cf81aac3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4b8044eb799672ed278f57aabc6a5d') in 0.019613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Deathgorge/Material/mid_bridge_frame_mat.mat
+  artifactKey: Guid(7278cff7f253c084b8e2df0a8fd80947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/mid_bridge_frame_mat.mat using Guid(7278cff7f253c084b8e2df0a8fd80947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51c5df318f73ab942eb6c47732f5cee') in 0.017369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Deathgorge/Material/mid_bridge_floor_mat.mat
+  artifactKey: Guid(032bfa63c23d9fd419838c49e0421261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/mid_bridge_floor_mat.mat using Guid(032bfa63c23d9fd419838c49e0421261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f1f5fd3555e799197baca5b4afd99e') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Deathgorge/Material/fire_brazier_mat.mat
+  artifactKey: Guid(f60d66d4da10a994c8522798258dfc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/fire_brazier_mat.mat using Guid(f60d66d4da10a994c8522798258dfc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1031b962d14419c08e59278b2e8bdf42') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Deathgorge/Material/shop_shade_mat.mat
+  artifactKey: Guid(d71466e3a8864574f85be63d3369870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/shop_shade_mat.mat using Guid(d71466e3a8864574f85be63d3369870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2742d35ffdc4b208aa7918441a33d6d') in 0.017653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Deathgorge/Material/bush_leaf_02_mat.mat
+  artifactKey: Guid(104c635e2eb38604cb265546a03ac123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/bush_leaf_02_mat.mat using Guid(104c635e2eb38604cb265546a03ac123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38a7c1ea51d9974a5798cd6526f95a3') in 0.019552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Deathgorge/Material/haystack_mat.mat
+  artifactKey: Guid(ac5c854df1d98804abaff1a0c3bb352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/haystack_mat.mat using Guid(ac5c854df1d98804abaff1a0c3bb352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae8b6194c1ff282048ba5dd56d383a') in 0.015700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Deathgorge/Material/inhibitor_blue_mat.mat
+  artifactKey: Guid(d378380b08b9ae84c875b59d499f622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/inhibitor_blue_mat.mat using Guid(d378380b08b9ae84c875b59d499f622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a089c34821a6cc349bec3aec5f261') in 0.021206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Deathgorge/Material/water_ground_mat.mat
+  artifactKey: Guid(8ae52fe7bdb2abc4691f1c7d1b8db0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/water_ground_mat.mat using Guid(8ae52fe7bdb2abc4691f1c7d1b8db0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3341cec2ba26559312f34f2d31ea4ae4') in 0.017868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Deathgorge/Material/scaffolding_frame_mat.mat
+  artifactKey: Guid(2df74989847736546a5e051be6c41b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/scaffolding_frame_mat.mat using Guid(2df74989847736546a5e051be6c41b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df1e90ecba84eda0dd4a255cf7bff97') in 0.013687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Deathgorge/Material/ruin_post_mat2.mat
+  artifactKey: Guid(31a6eb4c7364c314c845528ce0bcf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/ruin_post_mat2.mat using Guid(31a6eb4c7364c314c845528ce0bcf3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2938822b7ef5de335cb72366c9928d89') in 0.017856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Deathgorge/Material/cliff01_mat.mat
+  artifactKey: Guid(b92067462a9846e40af4f833f2345cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/cliff01_mat.mat using Guid(b92067462a9846e40af4f833f2345cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5a60a16434f996e7ade7bf701f7eba') in 0.019300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Deathgorge/Material/cliff02_mat.mat
+  artifactKey: Guid(16f6a35d956f4b1469deb5063b0a1fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/cliff02_mat.mat using Guid(16f6a35d956f4b1469deb5063b0a1fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe582777b722c781d61855bb1bda48d') in 0.020362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Deathgorge/Material/star_leaf_mat.mat
+  artifactKey: Guid(1a3e35ef9b53da94aa1cecdcba567913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/star_leaf_mat.mat using Guid(1a3e35ef9b53da94aa1cecdcba567913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b435377fb2681ede96d17ca74b2a5175') in 0.014523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Deathgorge/Material/shop_roof_mat.mat
+  artifactKey: Guid(8f4b24cfddc92f5449d919d11660b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/shop_roof_mat.mat using Guid(8f4b24cfddc92f5449d919d11660b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d36b2492b205ef26251565812b7b37') in 0.015201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Deathgorge/Material/mod_rock_v01_mat.mat
+  artifactKey: Guid(6c2dca31829e110478eec2fe7f2c28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/mod_rock_v01_mat.mat using Guid(6c2dca31829e110478eec2fe7f2c28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4314a26ebf3b541a6261ad2de66faf') in 0.014779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Deathgorge/Material/bush_leaf_01_mat.mat
+  artifactKey: Guid(9d749f8b2a9578f40a491d7cf66a8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/bush_leaf_01_mat.mat using Guid(9d749f8b2a9578f40a491d7cf66a8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ae3826dad7c5113ddbbdc49320eb1c') in 0.013065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Deathgorge/Material/scaffolding_planks_mat.mat
+  artifactKey: Guid(6ae3187afee91e7479108e516ce54613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/scaffolding_planks_mat.mat using Guid(6ae3187afee91e7479108e516ce54613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58435e1e65fa440396017694447d3024') in 0.018448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Deathgorge/Material/big_roots_mat.mat
+  artifactKey: Guid(f5b180e46bffc7743981a33b988026be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/big_roots_mat.mat using Guid(f5b180e46bffc7743981a33b988026be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509eb8fc1e82c875422d68f56ec7505c') in 0.016635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Deathgorge/Material/cliff03_mat.mat
+  artifactKey: Guid(9493cab0c80b3f843b277480c04a94e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/cliff03_mat.mat using Guid(9493cab0c80b3f843b277480c04a94e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7a736041cddf7be36070522b53857e') in 0.014656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Deathgorge/Material/ruin_post_mat3.mat
+  artifactKey: Guid(2494903e3198c334186ae5bab3a540b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/ruin_post_mat3.mat using Guid(2494903e3198c334186ae5bab3a540b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a4e33b40d16a84b4dbe940ff6c85bf') in 0.017900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Deathgorge/Material/ruin_platform_mat.mat
+  artifactKey: Guid(8cb82d697e6c55647a5f78e3befafd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deathgorge/Material/ruin_platform_mat.mat using Guid(8cb82d697e6c55647a5f78e3befafd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7720bd0566b2712c2734484323cee029') in 0.017405 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
