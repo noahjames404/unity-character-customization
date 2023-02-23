@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CharacterMeshFactory 
 {
-    public void build(CharacterMeshTemplate reference, CharacterMeshTemplate target)
+    public void Migrate(CharacterMeshTemplate reference, CharacterMeshTemplate target)
     {
         for(int i =0; i < reference.list.Count; i++)
         {
@@ -26,6 +26,19 @@ public class CharacterMeshFactory
         {
             Debug.LogError("Error Handled: " + ex);    
         }
+    }
+
+    public CharacterMeshSet Build(GameObject target, CharacterMeshSet reference)
+    {
+        CharacterMeshSet mesh = ScriptableObject.CreateInstance(typeof(CharacterMeshSet)) as CharacterMeshSet;
+        mesh.characterPrefab = target;
+        mesh.template = new CharacterMeshTemplate();
+        mesh.ExtractMesh();
+
+        Migrate(reference.template, mesh.template);
+        target.GetComponent<Animator>().Rebind();
+
+        return mesh;
     }
 }
 

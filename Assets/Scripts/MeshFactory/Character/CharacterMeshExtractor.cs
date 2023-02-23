@@ -20,7 +20,7 @@ namespace MeshFactory
 
         public static CharacterMeshTemplate Extract(ref CharacterMeshTemplate template, GameObject characterPrefab)
         {
-            SkinnedMeshRenderer[] mesh = characterPrefab.GetComponentsInChildren<SkinnedMeshRenderer>();
+            SkinnedMeshRenderer[] mesh = characterPrefab.GetComponentsInChildren<SkinnedMeshRenderer>(true);
 
             template.Skin.Mesh = GetClosesCandidate(mesh, skin);
             template.Eyes.Mesh = GetClosesCandidate(mesh, eyes);
@@ -33,17 +33,17 @@ namespace MeshFactory
             template.Tasset.Mesh = GetClosesCandidate(mesh, tasset);
             template.Boots.Mesh = GetClosesCandidate(mesh, boots);
 
-            template.list.ForEach(e => validateBones(e.Mesh));
+            template.list.ForEach(e => validateBones(e.Mesh,characterPrefab));
 
             return template;
         }
 
-        public static void validateBones(SkinnedMeshRenderer mesh)
+        public static void validateBones(SkinnedMeshRenderer mesh, GameObject owner)
         {
             if (mesh == null) return;
             if (mesh.bones.Length != 75)
             {
-                Debug.LogError($"invalid count {mesh.name} {mesh.bones.Length}");
+                Debug.LogError($"invalid count {owner.name} {mesh.name} {mesh.bones.Length}");
             }
         }
 
@@ -57,15 +57,14 @@ namespace MeshFactory
                 for (int i = 0; i < mesh.Length; i++)
                 {
                     int distance = LevenshteinDistance.Calculate(s, mesh[i].name);
-                    Debug.Log($"comparing {s} {mesh[i].name} - {distance}");
-                    Debug.Log($"comparison {distance} {distance < tolerance} {distance < candidate_points} {distance == -1}");
+                    //Debug.Log($"comparing {s} {mesh[i].name} - {distance}");
+                    //Debug.Log($"comparison {distance} {distance < tolerance} {distance < candidate_points} {distance == -1}");
                     if (distance < tolerance && (distance < candidate_points || candidate_points == -1))
                     {
                         candidate_index = i;
                         candidate_points = distance;
 
                     }
-                    Debug.Log("pointssss : " + candidate_points);
                     if (candidate_points == 0) return mesh[candidate_index];
                 }
             }

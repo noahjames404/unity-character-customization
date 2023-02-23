@@ -8,20 +8,18 @@ public class ProtoCharacterFactor : MonoBehaviour
 {
     public CharacterType characterType;
     public CharacterMeshSet reference;
-    public CharacterMeshSet _target;
-    public CharacterMeshTemplate target;
-    public Animator targetAnimator;
+    public GameObject target;
+    public CharacterMeshTemplate template;
     // Start is called before the first frame update
+
     void Start()
     {
         CharacterMeshFactory factory = new CharacterMeshFactory();
-        factory.build(reference.template, target);
-        targetAnimator.Rebind();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (characterType != reference.characterType)
+        {
+            Debug.LogError($"Incompatible Character Type: using {reference.characterType} on a {characterType} builder");
+            return;
+        }
+        template = factory.Build(target, reference).template;
     }
 }

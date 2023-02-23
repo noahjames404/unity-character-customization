@@ -64,9 +64,7 @@ namespace MeshFactory
             list.Add(lowerClothes);
             list.Add(gauntlet);
             list.Add(boots);
-            list.Add(tasset);
-
-            Debug.LogError("list created");
+            list.Add(tasset); 
         } 
     }
 
