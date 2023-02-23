@@ -1,13 +1,12 @@
 using MeshFactory;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProtoCharacterFactor : MonoBehaviour
+public class ProtoCharacterCustomFactory : MonoBehaviour
 {
     public CharacterType characterType;
-    public CharacterMeshSet reference;
+    public CharacterMeshCustomSet reference;
     public GameObject target;
     public CharacterMeshTemplate template;
     // Start is called before the first frame update
@@ -20,6 +19,6 @@ public class ProtoCharacterFactor : MonoBehaviour
             Debug.LogError($"Incompatible Character Type: using {reference.characterType} on a {characterType} builder");
             return;
         }
-        template = factory.Build(target, reference.template).template;
+        template = factory.Build(target, reference.getStandardizeTemplate()).template;
     }
 }

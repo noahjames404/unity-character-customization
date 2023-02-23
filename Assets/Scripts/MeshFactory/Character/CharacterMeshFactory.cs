@@ -8,9 +8,9 @@ public class CharacterMeshFactory
 {
     public void Migrate(CharacterMeshTemplate reference, CharacterMeshTemplate target)
     {
-        for(int i =0; i < reference.list.Count; i++)
+        for(int i =0; i < reference.List.Count; i++)
         {
-            lightCatcher(reference.list[i].Mesh, target.list[i].Mesh);   
+            lightCatcher(reference.List[i].Mesh, target.List[i].Mesh);   
         }
     }
 
@@ -24,18 +24,18 @@ public class CharacterMeshFactory
         }
         catch(Exception ex)
         {
-            Debug.LogError("Error Handled: " + ex);    
+            Debug.LogError($"Error Handled - unable to migrate " + ex );    
         }
     }
 
-    public CharacterMeshSet Build(GameObject target, CharacterMeshSet reference)
+    public CharacterMeshSet Build(GameObject target, CharacterMeshTemplate referenceTemplate)
     {
         CharacterMeshSet mesh = ScriptableObject.CreateInstance(typeof(CharacterMeshSet)) as CharacterMeshSet;
         mesh.characterPrefab = target;
         mesh.template = new CharacterMeshTemplate();
         mesh.ExtractMesh();
 
-        Migrate(reference.template, mesh.template);
+        Migrate(referenceTemplate, mesh.template);
         target.GetComponent<Animator>().Rebind();
 
         return mesh;

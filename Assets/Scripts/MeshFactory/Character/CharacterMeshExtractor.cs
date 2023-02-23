@@ -33,7 +33,7 @@ namespace MeshFactory
             template.Tasset.Mesh = GetClosesCandidate(mesh, tasset);
             template.Boots.Mesh = GetClosesCandidate(mesh, boots);
 
-            template.list.ForEach(e => validateBones(e.Mesh,characterPrefab));
+            template.List.ForEach(e => validateBones(e.Mesh,characterPrefab));
 
             return template;
         }
