@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc0d732412fab64c94b9e4a7958fa5d, type: 3}
+  m_Name: Water MA
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 919132149155446097, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+  template:
+    skin: {fileID: -3886949017780576548, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    eyes: {fileID: 0}
+    topClothes: {fileID: 423960353941641446, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    armor: {fileID: 4155116598312817858, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    hair: {fileID: 7526558925021875529, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    headGear: {fileID: 0}
+    lowerClothes: {fileID: 2189055256147603935, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    boots: {fileID: -3391937837661535885, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    gauntlet: {fileID: 7096432951112688035, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
+    tasset: {fileID: 2413669758037338620, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}

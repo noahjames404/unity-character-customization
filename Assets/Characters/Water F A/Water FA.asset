@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc0d732412fab64c94b9e4a7958fa5d, type: 3}
+  m_Name: Water FA
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 919132149155446097, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+  characterType: 0
+  template:
+    skin:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 3146073382240884288, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    eyes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 1488936513061457223, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    topClothes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 1250382818553286009, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    armor:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 9103404312399966440, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    hair:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -320787040515841243, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    headGear:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 0}
+    lowerClothes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 5542363565936008639, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    boots:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 5040911283672542602, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    gauntlet:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 9131122012217185730, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
+    tasset:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -6781041345790988556, guid: 6c16d5abffcc03d408d01b145ea56446, type: 3}
