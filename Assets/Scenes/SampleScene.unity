@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterType: 1
-  reference: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
+  reference: {fileID: 11400000, guid: 0e262039938752a44848c81483be26dd, type: 2}
   target: {fileID: 1625983890}
   template:
     skin:
