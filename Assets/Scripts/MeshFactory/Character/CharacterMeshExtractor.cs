@@ -8,11 +8,11 @@ namespace MeshFactory
     {
         static StringAlts skin = new StringAlts("body", "skin");
         static StringAlts eyes = new StringAlts("eyes");
-        static StringAlts topClothes = new StringAlts("topClothes", "upper clothes", "shirt");
+        static StringAlts topClothes = new StringAlts("topClothes","top_clothes","upper clothes", "shirt");
         static StringAlts armor = new StringAlts("armor");
         static StringAlts hair = new StringAlts("hair", "hair_");
-        static StringAlts headGear = new StringAlts("headGear");
-        static StringAlts lowerClothes = new StringAlts("lowerClothes", "skirt","pants","short");
+        static StringAlts headGear = new StringAlts("headGear","head_gear");
+        static StringAlts lowerClothes = new StringAlts("lowerClothes","lower_clothes","skirt","pants","short");
         static StringAlts gauntlet = new StringAlts("gauntlet", "gloves", "bracers");
         static StringAlts tasset = new StringAlts("tasset");
         static StringAlts boots = new StringAlts("boots");
