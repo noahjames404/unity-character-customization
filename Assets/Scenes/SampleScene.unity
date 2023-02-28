@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9b6be25e26bcf8246bc5d866f966f720, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9b6be25e26bcf8246bc5d866f966f720, type: 3}
       propertyPath: m_LocalScale.x
@@ -201,6 +201,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b6be25e26bcf8246bc5d866f966f720, type: 3}
       propertyPath: m_Name
       value: Female Base Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b6be25e26bcf8246bc5d866f966f720, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1561905360720721944, guid: 9b6be25e26bcf8246bc5d866f966f720, type: 3}
       propertyPath: m_IsActive
@@ -708,7 +712,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f50b98099e2db2749aeca01ba2f7f559, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f50b98099e2db2749aeca01ba2f7f559, type: 3}
       propertyPath: m_LocalScale.x

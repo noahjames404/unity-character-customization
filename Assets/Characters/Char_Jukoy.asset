@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc0d732412fab64c94b9e4a7958fa5d, type: 3}
+  m_Name: Char_Jukoy
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 919132149155446097, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+  characterType: 1
+  template:
+    skin:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -5901639322430032395, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    eyes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 0}
+    topClothes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 5173145717358099556, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    armor:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 0}
+    hair:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -2058337738550073297, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    headGear:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 0}
+    lowerClothes:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -717986896255904515, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    boots:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -5489930179102959890, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    gauntlet:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: 923295242295754446, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}
+    tasset:
+      assetID: 
+      name: 
+      description: 
+      mesh: {fileID: -8169693707597344673, guid: 48ca0465ada8ac64cba6278714430abf, type: 3}

@@ -11,12 +11,6 @@ namespace MeshFactory
         {
             SkinnedMeshRenderer instance = Instantiate(reference, target.rootBone);
             instance.gameObject.SetActive(true);
-
-            if (!CheckBoneEquality(reference, target))
-            {
-                Debug.LogError($"Unable to properly view mesh - invalid bone count between {instance.name}, {instance.bones.Length} & {target.name}, {target.bones.Length} ");
-            }
-
             instance.gameObject.layer = target.gameObject.layer;
             instance.bones = MigrateBone(target,reference);
             instance.rootBone = target.rootBone;
@@ -25,7 +19,8 @@ namespace MeshFactory
 
         private Transform[] MigrateBone(SkinnedMeshRenderer target, SkinnedMeshRenderer reference)
         {
-            if (target.bones.Length <= reference.bones.Length) return target.bones;
+            if (target.bones.Length < reference.bones.Length) 
+                throw new Exception($"Bone Mismatch: the bone of base model is less than reference model! {target.name} {target.bones.Length} {reference.bones.Length}");
 
             Transform[] bones = new Transform[reference.bones.Length];
             for(int i = 0; i < reference.bones.Length; i++)
