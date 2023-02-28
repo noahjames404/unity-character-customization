@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProtoCharacterFactor : MonoBehaviour
+public class ProtoCharacterFactory : MonoBehaviour
 {
     public CharacterType characterType;
     public CharacterMeshSet reference;

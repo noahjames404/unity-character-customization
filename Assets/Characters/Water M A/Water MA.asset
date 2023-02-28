@@ -19,7 +19,7 @@ MonoBehaviour:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: -3886949017780576548, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     eyes:
       assetID: 
       name: 
@@ -29,17 +29,17 @@ MonoBehaviour:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 423960353941641446, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     armor:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 4155116598312817858, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     hair:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 7526558925021875529, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     headGear:
       assetID: 
       name: 
@@ -49,19 +49,19 @@ MonoBehaviour:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 2189055256147603935, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     boots:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: -3391937837661535885, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     gauntlet:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 7096432951112688035, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     tasset:
       assetID: 
       name: 
       description: 
-      mesh: {fileID: 0}
+      mesh: {fileID: 2413669758037338620, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}

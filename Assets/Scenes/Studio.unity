@@ -655,10 +655,10 @@ MonoBehaviour:
     camPos: {x: -0.017, y: 2.62, z: 1.708}
     target: {fileID: 1382523566}
   collection:
+  - {fileID: 11400000, guid: 203cfade7fcc27345879ef146fea003f, type: 2}
   - {fileID: 11400000, guid: 68337fb8980cbcd4ba0c3f4751753a04, type: 2}
   - {fileID: 11400000, guid: b612291f990f5ca4b8ad393217d5907e, type: 2}
   - {fileID: 11400000, guid: b612291f990f5ca4b8ad393217d5907e, type: 2}
-  - {fileID: 11400000, guid: 203cfade7fcc27345879ef146fea003f, type: 2}
   - {fileID: 11400000, guid: b612291f990f5ca4b8ad393217d5907e, type: 2}
   images:
   - {fileID: 1640235032}
