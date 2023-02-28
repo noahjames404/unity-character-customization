@@ -16,8 +16,8 @@ MonoBehaviour:
   customTemplate:
     skin: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
     eyes: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
-    topClothes: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
-    armor: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    topClothes: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
+    armor: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
     hair: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
     headGear: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
     lowerClothes: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}

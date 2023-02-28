@@ -5,10 +5,7 @@ using UnityEngine.UI;
 
 public partial class ProtoCharacterStudio : MonoBehaviour
 {
-    public Camera camera;
-    public Vector3 maleCamPos;
-    public Vector3 femaleCamPos;
-
+    public Camera camera; 
     public StudioSetup male;
     public StudioSetup female;
 

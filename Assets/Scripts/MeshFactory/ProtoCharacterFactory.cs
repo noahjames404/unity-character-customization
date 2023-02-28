@@ -10,6 +10,8 @@ public class ProtoCharacterFactory : MonoBehaviour
     public CharacterMeshSet reference;
     public GameObject target;
     public CharacterMeshTemplate template;
+    public List<MeshBoneCountRow> boneComparison;
+
     // Start is called before the first frame update
 
     void Start()
@@ -21,5 +23,8 @@ public class ProtoCharacterFactory : MonoBehaviour
             return;
         }
         template = factory.Build(target, reference.template).template;
+
+        boneComparison = CharacterMeshDebugger.GetMeshBoneComparison(factory.GetTargetMeshSet(target).template, reference.template);
     }
+
 }

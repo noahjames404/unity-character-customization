@@ -68,7 +68,7 @@ namespace MeshFactory
                     if (candidate_points == 0) return mesh[candidate_index];
                 }
             }
-            if (candidate_index != -1) Debug.Log($"candidate {mesh[candidate_index].name} {candidate_points}");
+            //if (candidate_index != -1) Debug.Log($"candidate {mesh[candidate_index].name} {candidate_points}");
             return candidate_index == -1 ? null : mesh[candidate_index];
         }
     }

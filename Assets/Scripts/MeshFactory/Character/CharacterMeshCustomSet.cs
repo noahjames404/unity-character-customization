@@ -14,11 +14,12 @@ namespace MeshFactory
         {
             var temp = new CharacterMeshTemplate();
 
-            customTemplate.init();
+            if(customTemplate.List == null) customTemplate.init();
+
             Debug.Log($"Mesh Count: {temp.List.Count}");
             for (int i =0; i < temp.List.Count; i++)
             {
-                if (customTemplate.List[i].template.getPart((CharacterPartType)i) == null) continue;
+                if (customTemplate.List[i] == null || customTemplate.List[i].template.getPart((CharacterPartType)i) == null) continue;
                 temp.List[i] = customTemplate.List[i].template.getPart((CharacterPartType)i);
             } 
 

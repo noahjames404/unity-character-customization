@@ -16,52 +16,52 @@ MonoBehaviour:
   characterType: 1
   template:
     skin:
-      assetID: 
+      assetID: 11
       name: 
       description: 
       mesh: {fileID: -3886949017780576548, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     eyes:
-      assetID: 
+      assetID: 12
       name: 
       description: 
       mesh: {fileID: 0}
     topClothes:
-      assetID: 
+      assetID: 13
       name: 
       description: 
       mesh: {fileID: 423960353941641446, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     armor:
-      assetID: 
+      assetID: 14
       name: 
       description: 
       mesh: {fileID: 4155116598312817858, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     hair:
-      assetID: 
+      assetID: 15
       name: 
       description: 
       mesh: {fileID: 7526558925021875529, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     headGear:
-      assetID: 
+      assetID: 16
       name: 
       description: 
       mesh: {fileID: 0}
     lowerClothes:
-      assetID: 
+      assetID: 17
       name: 
       description: 
       mesh: {fileID: 2189055256147603935, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     boots:
-      assetID: 
+      assetID: 18
       name: 
       description: 
       mesh: {fileID: -3391937837661535885, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     gauntlet:
-      assetID: 
+      assetID: 19
       name: 
       description: 
       mesh: {fileID: 7096432951112688035, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}
     tasset:
-      assetID: 
+      assetID: 20
       name: 
       description: 
       mesh: {fileID: 2413669758037338620, guid: f7ef1b7c1038dc2498ff638aa8286511, type: 3}

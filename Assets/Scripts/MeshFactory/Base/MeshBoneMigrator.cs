@@ -6,12 +6,12 @@ namespace MeshFactory
 {
     public class MeshBoneMigrator : MonoBehaviour
     {
-        public void migrateMesh(SkinnedMeshRenderer reference, SkinnedMeshRenderer target)
+        public void MigrateMesh(SkinnedMeshRenderer reference, SkinnedMeshRenderer target)
         {
             SkinnedMeshRenderer instance = Instantiate(reference, target.rootBone);
             instance.gameObject.SetActive(true);
 
-            if (!checkBoneEquality(reference, target))
+            if (!CheckBoneEquality(reference, target))
             {
                 Debug.LogError($"Unable to properly view mesh - invalid bone count between {instance.name}, {instance.bones.Length} & {target.name}, {target.bones.Length} ");
             }
@@ -22,7 +22,7 @@ namespace MeshFactory
             instance.ResetBounds();
         }
 
-        public bool checkBoneEquality(SkinnedMeshRenderer a, SkinnedMeshRenderer b)
+        public bool CheckBoneEquality(SkinnedMeshRenderer a, SkinnedMeshRenderer b)
         {
             Debug.Log($"comparison: {a.name} {a.bones.Length} - {b.name} {b.bones.Length}");
             return a.bones.Length == b.bones.Length;
