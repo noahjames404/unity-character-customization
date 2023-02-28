@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786a93a7b1525c94da440ef43f1bda2f, type: 3}
+  m_Name: Dilawan 1
+  m_EditorClassIdentifier: 
+  characterType: 1
+  customTemplate:
+    skin: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
+    eyes: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    topClothes: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
+    armor: {fileID: 11400000, guid: 014f4bef3f4ad1741a15948f9599c770, type: 2}
+    hair: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    headGear: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    lowerClothes: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    boots: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    gauntlet: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
+    tasset: {fileID: 11400000, guid: 7dfed34ef18ef0646a2cf4f8bed8d39c, type: 2}
