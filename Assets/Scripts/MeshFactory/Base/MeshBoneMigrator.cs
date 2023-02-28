@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,9 +18,24 @@ namespace MeshFactory
             }
 
             instance.gameObject.layer = target.gameObject.layer;
-            instance.bones = target.bones;
+            instance.bones = MigrateBone(target,reference);
             instance.rootBone = target.rootBone;
             instance.ResetBounds();
+        }
+
+        private Transform[] MigrateBone(SkinnedMeshRenderer target, SkinnedMeshRenderer reference)
+        {
+            if (target.bones.Length <= reference.bones.Length) return target.bones;
+
+            Transform[] bones = new Transform[reference.bones.Length];
+            for(int i = 0; i < reference.bones.Length; i++)
+            {
+                bones[i] = Array.Find(target.bones, e => e.name.Equals(reference.bones[i].name));
+                if (bones[i] == null) 
+                    throw new Exception($"Bone Mismatch: the bone of base model & reference model did not match! {target.name} {target.bones.Length} {reference.bones.Length}");
+            }
+
+            return bones;
         }
 
         public bool CheckBoneEquality(SkinnedMeshRenderer a, SkinnedMeshRenderer b)
