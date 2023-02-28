@@ -16,6 +16,7 @@ namespace MeshFactory
                 Debug.LogError($"Unable to properly view mesh - invalid bone count between {instance.name}, {instance.bones.Length} & {target.name}, {target.bones.Length} ");
             }
 
+            instance.gameObject.layer = target.gameObject.layer;
             instance.bones = target.bones;
             instance.rootBone = target.rootBone;
             instance.ResetBounds();
